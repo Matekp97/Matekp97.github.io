@@ -1,0 +1,67 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #00539f;
+}
+
+img {
+  display: block;
+  margin: 0 auto; /* we center the image to make it look better*/
+}
+
+body {
+  width: 600px; /*This forces the body to always be 600 pixels wide*/
+  margin: 0 auto; /*When you set two values on a property like margin 
+                    or padding, the first value affects the element's 
+                    top and bottom side (setting it to 0 in this case);
+                    the second value affects the left and right side. 
+                    (Here, auto is a special value that divides the available horizontal space evenly).*/
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px; /*This sets four values for padding.*/
+  border: 5px solid black;
+}
+/* Element selector
+p,
+li {
+  color: red;
+  width: 500px;
+  border: 1px solid black;
+}
+*/
+/* id selector
+#my-id
+selects <p id="my-id"> or <a id="my-id">
+*/
+
+/*
+.my-class
+selects <p class="my-class"> and <a class="my-class"
+*/
+
+/*
+img[src]
+selects <img src="myimage.png"> but not <img>
+*/
+
+/*
+a:hover
+selects <a>, but only when the mouse pointer is hovering over the link.
+*/
+
